@@ -1,0 +1,59 @@
+.mid_nav{
+    display: none;
+
+}
+.mainheader{
+    min-height: 54px;
+}
+.section{
+    width: auto;
+}
+
+
+.footer{
+    padding: 0;
+    min-width: 100%;
+    justify-content: center;
+}
+.invi{
+    display: none !important;
+}
+.apren{
+    background: #00000045;
+    border-radius: 13px;
+    backdrop-filter: blur(8px);
+
+}
+.right_nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.logo{
+    padding: 0;
+    min-inline-size: 0;
+    min-block-size: 0;
+}
+.tds-footer-item{
+    padding: 6px;
+}
+.tds-link{
+    font-size: 12px;
+}
+#gaadi1{
+    background-image: url('images/scar1.jpg');
+}
+#gaadi2{
+    background-image: url('images/scar2.jpg');
+}
+#gaadi3{
+    background-image: url('images/scar3.jpg');
+}
+#gaadi4{
+    background-image: url('images/scar4.jpg');
+}
+#gaadi5{
+    background-image: url('images/scar5.jpg');
+}
+#gaadi6{
+    background-image: url('images/scar6.jpg');
+}

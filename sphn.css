@@ -1,0 +1,16 @@
+.footer{
+    padding: 0;
+    min-width: 100%;
+    flex-direction: column;
+
+}
+.btnsec{
+    flex-direction: column;
+}
+.tds-footer-item{
+    padding: 1px;
+}
+#shopbtn{
+    bottom: 110px;
+
+}

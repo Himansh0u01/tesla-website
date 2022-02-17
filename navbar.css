@@ -1,0 +1,135 @@
+.outerheader{
+    position: fixed;
+    /* border: 2px solid black; */
+    width: 100vw;
+    top: 0px;
+    z-index: 6;
+
+}
+.mainheader{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+    /* border: 2px solid blue; */
+}
+.logo{
+    position:absolute;
+    left: 12px;
+    margin: 0;
+    min-inline-size: 240px;
+    min-block-size: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+.tesla_logo{
+    box-shadow: none;
+    display: inline-flex;
+    padding: 0 8px;
+    /* border: 2px solid red; */
+    padding: 0 9px;
+}
+.T_icon{
+    
+    color: #171a20;
+    inline-size: calc(24*5);
+    background: var(--tds-icon--bg);
+    block-size: var(--tds-icon--size);
+    content: "";
+    display: block;
+    inline-size: var(--tds-icon--size);
+    max-inline-size: 100%;
+    min-block-size: var(--tds-icon--size);
+    min-inline-size: var(--tds-icon--size);
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 120px;
+}
+.mid_nav{
+   
+    min-height: 54px;
+    min-width: 688px;
+
+    position: static;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    /* border: 2px solid red; */
+
+    transition: transform .5s ease;
+    position: relative;
+    z-index: 1;
+}
+.mid_nav li{
+    width: 92px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-right: 2px;
+
+}
+.right_nav{
+    width: 267px;
+    position: absolute;
+    right: 20px;
+
+    
+    align-items: center;
+    display: flex;
+    margin: 0;
+    /* border: 2px solid red; */
+
+    transition: transform .5s ease;
+    
+
+    z-index: 1;
+    padding: 0;
+    height: 58px;
+
+}
+.right_nav li{
+    width: 92px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+
+
+}
+.tds-site-nav-item {
+    
+        text-decoration: none;
+        color: #1d1c1ce3;
+        font-weight: 600;
+        font-size: 15px;
+        letter-spacing: 1;
+        font-family: system-ui;
+        letter-spacing: 0.5px;
+        lighting-color: currentcolor;
+    
+}
+.backani{
+    position: absolute;
+   
+    height: 32px;
+    background-color: #171a2021;
+    z-index: 1;
+    /* border: 1px solid #171a2021; */
+    border-radius: 12px;
+    transition: all;
+    transition-duration: 0.7s;
+    background: #00000029;
+    border-radius: 13px;
+    backdrop-filter: blur(8px);
+  
+}
+.lisr{
+    margin-right: 11px !important;
+}

@@ -1,0 +1,43 @@
+#tesla_footer{
+    display: block;
+    background-color: transparent;
+    bottom: 0;
+    display: none;
+    inset-inline-start: 0;
+    
+    width: 100%;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+  
+    justify-content: center;
+    height: 70px;
+}
+.mainfooter{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    inline-size: 100%;
+}
+.footer{
+    
+    min-width:600px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+}
+.tds-link{
+    text-decoration: none;
+    box-shadow: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: #393c41;
+    letter-spacing: 1;
+    font-family: system-ui;
+    letter-spacing: 0.5px;
+    lighting-color: currentcolor;
+
+}
